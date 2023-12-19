@@ -1,5 +1,5 @@
 # NerdleGame-Solver
-Using [information theory](https://en.wikipedia.org/wiki/Information_theory) we can find the best guess to make at any point. This repository stores the code needed to generate necessary data and the algorithm that solves the game using such data.
+Using [information theory](https://en.wikipedia.org/wiki/Information_theory) we can find the best guess to make at any point in the [game](https://nerdlegame.com/). This repository stores the code needed to generate necessary data and the algorithm that solves the game using such data.
 
 ## How to solve the game
 We want to **minimize the amount of tries** made to guess the equation. Therefore, with each guess, we should try to reduce as much as possible the amount of remaining equations that could be the answer.
